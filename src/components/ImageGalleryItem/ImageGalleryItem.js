@@ -8,7 +8,7 @@ const ImageGalleryItem = ({ url, modalHandle, largeImageURL }) => {
   };
   return (
     <li className={styles.ImageGalleryItem} onClick={handleModal}>
-      <img src={url} alt="" className={['ImageGalleryItem-image']} />
+      <img src={url} alt="" className={styles['ImageGalleryItem-image']} />
     </li>
   );
 };
